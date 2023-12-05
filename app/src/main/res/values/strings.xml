@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ПАРСЕР ВАКАНСИЙ</string>
+    <string name="titleOrg">Output a title organization.</string>
+    <string name="namePos">Name of the position</string>
+    <string name="salaryLevel">Salary Level</string>
+    <string name="jobPlace">Job Place</string>
+    <string name="jobDescribe">Describtion</string>
+    <string name="schedule">Schedule</string>
+    <string name="experience">Experience</string>
+    <string name="systemList">Укажите площадки</string>
+</resources>

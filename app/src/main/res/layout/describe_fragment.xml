@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleOrg"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_namepos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/namePos"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salaryLevel"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jobPlace"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/job_d_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/experience"/>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+            android:id="@+id/job_d_describ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars = "vertical"
+            android:text="@string/jobDescribe" />
+    </ScrollView>
+</LinearLayout>
